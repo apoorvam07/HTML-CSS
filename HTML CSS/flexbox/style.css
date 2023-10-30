@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+}
+div {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-style: solid;
+}
+#container {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#box1 {
+  background-color: coral;
+}
+#box2 {
+  background-color: rgb(141, 80, 255);
+}
+#box3 {
+  background-color: rgb(252, 255, 80);
+}
+#box4 {
+  background-color: rgb(80, 229, 255);
+}
+#box5 {
+  background-color: rgb(255, 80, 80);
+}

@@ -1,0 +1,54 @@
+#box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: rgb(34, 132, 63);
+  color: aliceblue;
+  animation-name: colorAnimate;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: reverse;
+  animation-direction: normal;
+  /* animation: colorAnimate 2s ease-in 0s reverse normal;*/
+}
+@keyframes colorAnimate {
+  from {
+    left: 0px;
+    background-color: yellow;
+  }
+  to {
+    left: 200px;
+    background-color: rgb(117, 41, 134);
+  }
+}
+#box1 {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  background-color: rgb(34, 132, 63);
+  color: aliceblue;
+  animation-name: colorAnimate;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: reverse;
+  animation-direction: normal;
+  /* animation: colorAnimate 2s ease-in 0s reverse normal;*/
+}
+@keyframes colorAnimate {
+  0% {
+    left: 0px;
+    background-color: yellow;
+  }
+  100% {
+    left: 200px;
+    background-color: rgb(117, 41, 134);
+  }
+}

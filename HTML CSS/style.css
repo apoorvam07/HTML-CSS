@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+  font-family: arial;
+}
+h2 {
+  text-align: centre;
+  text-transform: capitalize;
+  font-family: times new roman;
+}
+h3 {
+  color: blue;
+  text-align: right;
+}
+button {
+  color: rgb(74, 0, 139);
+  background-color: rgba(199, 189, 191, 0.11);
+}
+body {
+  background-color: rgb(169, 169, 169);
+}
+#heading {
+  color: rgb(66, 210, 66);
+}
+
+.class {
+  color: red;
+}
+#one {
+  font-size: 10px;
+  line-height: 2px;
+}
+#outer {
+  font-size: 25px;
+}
+#inner {
+  font-size: 10px;
+}
